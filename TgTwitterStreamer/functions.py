@@ -16,7 +16,7 @@ async def download_from_url(url, name=None):
     if not name:
         name = url.split("/")[-1]
             if "?tag=" in name:
-            name = name.split("?tag=")[0]
+                name = name.split("?tag=")[0]
 
     async with ClientSession() as ses:
         async with ses.get(url) as out:
