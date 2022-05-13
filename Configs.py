@@ -1,4 +1,4 @@
-# Telegram - Twitter - Bot
+# Telegram - Twitter - Bot Pub
 # Github.com/
 # GNU General Public License v3.0
 
